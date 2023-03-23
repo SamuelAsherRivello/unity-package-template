@@ -1,0 +1,39 @@
+{
+  "name": "com.rmc.unity-package-template",
+  "displayName": "RMC Unity Package Template",
+  "version": "1.2.0",
+  "unity": "2021.3",
+  "description": "RMC's Unity best practices for package structure and C# coding standards. It is a recommended starting point for new packages.",
+  "keywords": [
+	"unity",
+	"unity3d",
+	"rmc",
+	"upm",
+	"package",
+	"template",
+	"utility"
+  ],
+  "dependencies": {
+	"com.rmc.rmc-readme" : "1.2.1" 
+  },
+  "homepage": "https://github.com/samuelasherrivello/unity-package-template.git",
+  "bugs": {
+	"url": "https://github.com/samuelasherrivello/unity-package-template/issues"
+  },
+  "repository": {
+	"type": "git",
+	"url": "git+ssh://git@github.com/samuelasherrivello/unity-package-template.git"
+  },
+  "license": "MIT",
+  "author": "rmc (github.com/SamuelAsherRivello)",
+  "scripts": {
+	"test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "samples": [
+    {
+	"displayName": "TemporarioSDK Sample",
+	"description": "Demonstrate the RMC Unity Package Template",
+	"path": "TemporarioSDK/Samples~/TemporarioSDK Sample"
+    }
+  ]
+}
