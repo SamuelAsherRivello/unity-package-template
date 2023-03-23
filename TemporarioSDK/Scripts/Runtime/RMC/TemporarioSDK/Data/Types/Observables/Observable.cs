@@ -1,8 +1,7 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.Events;
 
-namespace RMC.Temporario.Data.Types.Observables
+namespace RMC.TemporarioSDK.Data.Types.Observables
 {
     /// <summary>
     /// The <see cref="UnityEvent"/> for <see cref="Observable{T}"/>.

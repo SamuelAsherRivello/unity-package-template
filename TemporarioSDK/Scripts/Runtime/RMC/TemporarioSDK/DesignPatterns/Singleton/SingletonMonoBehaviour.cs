@@ -7,7 +7,7 @@ using UnityEngine;
 //--------------------------------------
 //  Namespace
 //--------------------------------------
-namespace RMC.Temporario.DesignPatterns.Singleton
+namespace RMC.TemporarioSDK.DesignPatterns.Singleton
 {
 	public abstract class SingletonMonoBehaviour : MonoBehaviour
 	{

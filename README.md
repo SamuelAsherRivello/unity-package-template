@@ -1,9 +1,9 @@
-[![npm package](https://img.shields.io/npm/v/com.rmc.rmc-core)](https://www.npmjs.com/package/com.rmc.rmc-core)
+[![npm package](https://img.shields.io/npm/v/com.rmc.unity-package-template)](https://www.npmjs.com/package/com.rmc.unity-package-template)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 <img width = "400" src="https://raw.githubusercontent.com/SamuelAsherRivello/rmc-core/main/RMC%20Core/Documentation~/com.rmc_namespace_logo.png" />
 
-# RMC Core
+# RMC Unity Package Template
 
 - [How To Use](#how-to-use)
 - [Install](#install)
@@ -18,11 +18,9 @@
 
 ## How to use
 
-This is the **Core** library for Unity Development by Rivello Multimedia Consulting.
+RMC's best practices for Unity package structure and C# coding standards. It is a recommended starting point for new Unity packages.
 
-It includes functionality for audio, custom data types, reusable Unity UI elements, visual transitions, and more.
-
-Import the package into your new or existing Unity Project. Enjoy!
+Enjoy!
 
 ## Install
 
@@ -52,7 +50,7 @@ Or to edit the `Packages/manifest.json` directly with your favorite text editor,
     }
   ],
   "dependencies": {
-    "com.rmc.rmc-core": "1.2.0"
+    "com.rmc.unity-package-template": "1.0.0"
   }
 }
 ```
@@ -73,7 +71,7 @@ Or to edit the `Packages/manifest.json` directly with your favorite text editor,
 ```json
 {
   "dependencies": {
-      "com.rmc.rmc-core": "https://github.com/SamuelAsherRivello/rmc-core.git"
+      "com.rmc.unity-package-template": "https://github.com/SamuelAsherRivello/unity-package-template.git"
   }
 }
 ```
@@ -90,7 +88,7 @@ Open `Packages/manifest.json` with your favorite text editor. Add following line
 {
   "dependencies": {
   },
-  "testables": [ "com.rmc.rmc-core" ]
+  "testables": [ "com.rmc.unity-package-template" ]
 }
 ```
 
