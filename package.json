@@ -1,7 +1,7 @@
 {
   "name": "com.rmc.unity-package-template",
   "displayName": "RMC Unity Package Template",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "unity": "2021.3",
   "description": "RMC's best practices for Unity package structure and C# coding standards. It is a recommended starting point for new Unity packages.",
   "keywords": [
