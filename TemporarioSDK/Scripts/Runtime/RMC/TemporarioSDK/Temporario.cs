@@ -35,7 +35,7 @@ namespace RMC.TemporarioSDK
             // Load defaults. Depending on if/how users set this, you may want to 
             // change this approach
             _temporarioConfiguration =
-                Resources.Load<TemporarioConfiguration>("Prefabs/TemporarioSDKConfiguration");
+                Resources.Load<TemporarioConfiguration>("ScriptableObjects/TemporarioSDKConfiguration");
         }
 
 
