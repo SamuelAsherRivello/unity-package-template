@@ -101,7 +101,7 @@ namespace RMC.TemporarioSDK.DesignPatterns.Singleton
 		/// 	2. Creates GameObject with name of subclass
 		/// 	3. Persists by default (optional)
 		/// 	4. Predictable life-cycle.
-		/// 
+		/// z
 		/// </summary>
 		public static T Instantiate ()
 		{
@@ -109,11 +109,11 @@ namespace RMC.TemporarioSDK.DesignPatterns.Singleton
 			if (!IsInstantiated())
 			{
 				T t  = GameObject.FindObjectOfType<T>();
-                GameObject go = null;
-                if (t != null)
-                {
-                    go = t.gameObject;
-                }
+                		GameObject go = null;
+                		if (t != null)
+                		{
+                    			go = t.gameObject;
+                		}
 
 				if (go == null)
 				{
