@@ -1,26 +1,26 @@
-[![npm package](https://img.shields.io/npm/v/com.rmc.unity-package-template)](https://www.npmjs.com/package/com.rmc.unity-package-template)
+[![npm package](https://img.shields.io/npm/v/com.rmc.your-package-name)](https://www.npmjs.com/package/com.rmc.unity-package-template)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-
-<img width = "400" src="https://raw.githubusercontent.com/SamuelAsherRivello/rmc-core/main/RMC%20Core/Documentation~/com.rmc_namespace_logo.png" />
 
 # RMC Unity Package Template
 
-- [How To Use](#how-to-use)
-- [Install](#install)
-  - [Via NPM](#via-npm)
-  - [Or Via Git URL](#or-via-git-url)
-- [Optional](#optional)
-  - [Tests](#tests)
-  - [Samples](#samples)
-- [Configuration](#configuration)
+> Fork this repo and update all contents including `Readme.md` and `Package.json` to create and release a new UPM-compatible Unity package.
 
-<!-- toc -->
+<BR>
 
-## How to use
+<img width = "600" src="https://raw.githubusercontent.com/SamuelAsherRivello/rmc-core/main/RMC%20Core/Documentation~/com.rmc_namespace_logo.png" />
 
-RMC's best practices for Unity package structure and C# coding standards. It is a recommended starting point for new Unity packages.
+<BR>
+<BR>
 
-Enjoy!
+# Contents
+
+1. [Install](#install)
+1. [Configuration](#configuration)
+1. [Testing](#testing)
+1. [Credits](#credits)
+
+<BR>
+<BR>
 
 ## Install
 
@@ -44,18 +44,16 @@ Or to edit the `Packages/manifest.json` directly with your favorite text editor,
     {
       "name": "npmjs",
       "url": "https://registry.npmjs.org/",
-      "scopes": [
-        "com.rmc"
-      ]
+      "scopes": ["com.rmc"]
     }
   ],
   "dependencies": {
-    "com.rmc.unity-package-template": "1.0.0"
+    "com.rmc.your-package-name": "1.8.0"
   }
 }
 ```
-Package should now appear in package manager.
 
+Package should now appear in package manager.
 
 ### Or Via Git URL
 
@@ -68,27 +66,39 @@ To use the [Package Manager Window](https://docs.unity3d.com/Manual/upm-ui.html)
 **Manifest File**
 
 Or to edit the `Packages/manifest.json` directly with your favorite text editor, add following line(s) to the dependencies block:
+
 ```json
 {
   "dependencies": {
-      "com.rmc.unity-package-template": "https://github.com/SamuelAsherRivello/unity-package-template.git"
+    "com.rmc.your-dependency-here": "https://github.com/SamuelAsherRivello/your-dependency-here.git"
   }
 }
 ```
 
-## Optional
+<BR>
+<BR>
 
-### Tests
+## Configuration
 
-The package can optionally be set as *testable*.
+- `Unity Target` - [Standalone MAC/PC](https://support.unity.com/hc/en-us/articles/206336795-What-platforms-are-supported-by-Unity-)
+- `Unity Version` - Any [Unity Editor](https://unity.com/download) 2021.x or higher
+- `Unity Rendering` - Any [Unity Render Pipeline](https://docs.unity3d.com/Manual/universal-render-pipeline.html)
+- `Unity Aspect Ratio` - Any [Unity Game View](https://docs.unity3d.com/Manual/GameView.html)
+
+<BR>
+<BR>
+
+## Testing
+
+The package can optionally be set as _testable_.
 In practice this means that tests in the package will be visible in the [Unity Test Runner](https://docs.unity3d.com/2017.4/Documentation/Manual/testing-editortestsrunner.html).
 
 Open `Packages/manifest.json` with your favorite text editor. Add following line **after** the dependencies block:
+
 ```json
 {
-  "dependencies": {
-  },
-  "testables": [ "com.rmc.unity-package-template" ]
+  "dependencies": {},
+  "testables": ["com.rmc.your-package-name"]
 }
 ```
 
@@ -96,41 +106,31 @@ Open `Packages/manifest.json` with your favorite text editor. Add following line
 
 Some packages include optional samples with clear use cases. To import and run the samples:
 
-1. Open Unity 
+1. Open Unity
 1. Complete the package installation (See above)
 1. Open the [Package Manager Window](https://docs.unity3d.com/Manual/upm-ui.html)
-1. Select this package 
+1. Select this package
 1. Select samples
 1. Import
 
-## Configuration
+<BR>
+<BR>
 
-* `Unity Target` - [Standalone MAC/PC](https://support.unity.com/hc/en-us/articles/206336795-What-platforms-are-supported-by-Unity-)
-* `Unity Version` - Any [Unity Editor](https://unity.com/download) 2021.x or higher
-* `Unity Rendering` - Any [Unity Render Pipeline](https://docs.unity3d.com/Manual/universal-render-pipeline.html)
-* `Unity Aspect Ratio` - Any [Unity Game View](https://docs.unity3d.com/Manual/GameView.html)
+## Credits
 
+**Created By**
 
-Created By
-=============
+- Samuel Asher Rivello
+- Over 26 years XP with game development (2025)
+- Over 12 years XP with Unity (2025)
 
-- Samuel Asher Rivello 
-- Over 23 years XP with game development (2023)
-- Over 10 years XP with Unity (2023)
-
-Contact
-=============
+**Contact**
 
 - Twitter - <a href="https://twitter.com/srivello/">@srivello</a>
+- Git - <a href="https://github.com/SamuelAsherRivello/">Github.com/SamuelAsherRivello</a>
 - Resume & Portfolio - <a href="http://www.SamuelAsherRivello.com">SamuelAsherRivello.com</a>
-- Source Code on Git - <a href="https://github.com/SamuelAsherRivello/">Github.com/SamuelAsherRivello</a>
 - LinkedIn - <a href="https://Linkedin.com/in/SamuelAsherRivello">Linkedin.com/in/SamuelAsherRivello</a> <--- Say Hello! :)
 
-License
-=============
+**License**
 
-Provided as-is under MIT License | Copyright © 2023 Rivello Multimedia Consulting, LLC
-
-
-
-
+Provided as-is under <a href="./LICENSE">MIT License</a> | Copyright ™ & © 2006 - 2025 Rivello Multimedia Consulting, LLC
