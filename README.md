@@ -1,6 +1,8 @@
 [![npm package](https://img.shields.io/npm/v/com.rmc.your-package-name)](https://www.npmjs.com/package/com.rmc.unity-package-template)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
+TLDR; `Replace "TemporarioSDK" with the name of your own product`
+
 # RMC Unity Package Template
 
 > Fork this repo and update all contents including `Readme.md` and `Package.json` to create and release a new UPM-compatible Unity package.
